@@ -1,5 +1,5 @@
-const canvasColor = '#282c34'
-const axisColor = '#ffffff'
+const canvasColor = '#ffffff'
+const axisColor = '#000000'
 
 export type GridParams = {
   stdCanvasW: number
@@ -85,34 +85,34 @@ export class Grid {
 
       if (line % 8 === 0) {
         if (this.zoom > 0) {
-          this.context.strokeStyle = 'rgba(250,250,250,0.9)'
+          this.context.strokeStyle = 'rgba(0,0,0,0.9)'
         } else if (this.zoom < 0) {
           this.context.strokeStyle =
-            'rgba(250,250,250,' +
+            'rgba(0,0,0,' +
             this.setOpacity(this.cellSize / this.minCellSize, 0.9, 0.6) +
             ')'
         }
       } else if (line % 4 === 0) {
         if (this.zoom > 0) {
           this.context.strokeStyle =
-            'rgba(250,250,250,' +
+            'rgba(0,0,0,' +
             this.setOpacity(this.cellSize / this.minCellSize, 0.6, 0.9) +
             ')'
         } else if (this.zoom < 0) {
           this.context.strokeStyle =
-            'rgba(250,250,250,' +
+            'rgba(0,0,0,' +
             this.setOpacity(this.cellSize / this.minCellSize, 0.6, 0.2) +
             ')'
         }
       } else {
         if (this.zoom > 0) {
           this.context.strokeStyle =
-            'rgba(250,250,250,' +
+            'rgba(0,0,0,' +
             this.setOpacity(this.cellSize / this.minCellSize, 0, 0.14) +
             ')'
         } else if (this.zoom < 0) {
           this.context.strokeStyle =
-            'rgba(250,250,250,' +
+            'rgba(0,0,0,' +
             this.setOpacity(this.cellSize / this.minCellSize, 0.05, 0) +
             ')'
         }

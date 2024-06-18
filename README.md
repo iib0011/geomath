@@ -1,80 +1,81 @@
-![reactjs-vite-tailwindcss-boilerplate](https://user-images.githubusercontent.com/16243531/217138979-b854309c-4742-4275-a705-f9fec5158217.jpg)
+# GeoMath
 
-# React Tailwindcss Boilerplate build with Vite
+GeoMath is an interactive mathematics application built using React. It aims to provide similar functionality to GeoGebra, allowing users to visualize and explore mathematical concepts such as graphs, geometry, algebra, calculus and more.
 
-This is a boilerplate build with Vite, React 18, TypeScript, Vitest, Testing Library, TailwindCSS 3, Eslint and Prettier.
+## Table of Contents
 
-## What is inside?
+- [Features](#features)
+- [Demo](#demo)
+- [Installation](#installation)
+- [Usage](#usage)
+- [Contributing](#contributing)
+- [License](#license)
+- [Contact](#contact)
 
-This project uses many tools like:
+## Features
 
-- [Vite](https://vitejs.dev)
-- [ReactJS](https://reactjs.org)
-- [TypeScript](https://www.typescriptlang.org)
-- [Vitest](https://vitest.dev)
-- [Testing Library](https://testing-library.com)
-- [Tailwindcss](https://tailwindcss.com)
-- [Eslint](https://eslint.org)
-- [Prettier](https://prettier.io)
+- Interactive geometry tools: points, lines, polygons, circles, etc.
+- Algebraic expressions and graphing.
+- Calculus tools: derivatives, integrals, function analysis.
+- Support for multiple coordinate systems.
+- Real-time updates and visualizations.
+- Export and import functionalities for sharing work.
+- User-friendly interface with drag-and-drop capabilities.
 
-## Getting Started
+## Demo
 
-### Install
+A live demo of GeoMath can be found [here](#). (Replace `#` with the link to your live demo)
 
-Create the project.
+## Installation
 
-```bash
-npx degit joaopaulomoraes/reactjs-vite-tailwindcss-boilerplate my-app
-```
+To get a local copy up and running, follow these steps:
 
-Access the project directory.
+1. **Clone the repository**
 
-```bash
-cd my-app
-```
+    ```bash
+    git clone https://github.com/yourusername/geomath.git
+    cd geomath
+    ```
 
-Install dependencies.
+2. **Install dependencies**
 
-```bash
-pnpm install
-```
+    ```bash
+    npm install
+    ```
 
-Serve with hot reload at <http://localhost:5173>.
+3. **Start the development server**
 
-```bash
-pnpm run dev
-```
+    ```bash
+    npm start
+    ```
 
-### Lint
+   This will start the application in development mode. Open `http://localhost:5173` to view it in the browser.
 
-```bash
-pnpm run lint
-```
+## Usage
 
-### Typecheck
+- Use the toolbar to select different tools for constructing and manipulating geometric shapes.
+- Enter algebraic expressions in the input field to visualize graphs.
+- Use the calculus tools to perform function analysis and visualizations.
+- Save your work by exporting it and share it with others.
 
-```bash
-pnpm run typecheck
-```
+## Contributing
 
-### Build
+Contributions are what make the open source community such an amazing place to learn, inspire, and create. Any contributions you make are **greatly appreciated**.
 
-```bash
-pnpm run build
-```
+To contribute:
 
-### Test
-
-```bash
-pnpm run test
-```
-
-View and interact with your tests via UI.
-
-```bash
-pnpm run test:ui
-```
+1. Fork the Project.
+2. Create your Feature Branch (`git checkout -b feature/AmazingFeature`).
+3. Commit your Changes (`git commit -m 'Add some AmazingFeature'`).
+4. Push to the Branch (`git push origin feature/AmazingFeature`).
+5. Open a Pull Request.
 
 ## License
 
-This project is licensed under the MIT License.
+Distributed under the MIT License. See [LICENSE](LICENSE) for more information.
+
+## Contact
+
+Ibrahima Coulibaly - [ibracool99@gmail.com](mailto:ibracool99@gmail.com)
+
+Project Link: [https://github.com/iib0011/geomath](https://github.com/iib0011/geomath)
